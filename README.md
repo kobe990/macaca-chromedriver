@@ -18,7 +18,7 @@ macaca-chromedriver
 [download-image]: https://img.shields.io/npm/dm/macaca-chromedriver.svg?style=flat-square
 [download-url]: https://npmjs.org/package/macaca-chromedriver
 
-> macaca-chromedriver
+> Node.js wrapper for the selenium chromedriver.
 
 ## Installment
 
@@ -29,7 +29,7 @@ $ npm i macaca-chromedriver --save
 ## Quick Start
 
 ```bash
-$ macaca-chromedriver
+$ chromedriver
 ```
 
 ## License

@@ -1,9 +1,10 @@
 {
   "name": "macaca-chromedriver",
   "version": "0.1.0",
-  "description": "macaca-chromedriver",
+  "description": "Node.js wrapper for the selenium chromedriver.",
   "keywords": [
-    "macaca-chromedriver"
+    "macaca",
+    "chromedriver"
   ],
   "bin": {
     "macaca-chromedriver": "./bin/macaca-chromedriver"

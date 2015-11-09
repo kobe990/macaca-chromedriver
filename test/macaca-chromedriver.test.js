@@ -13,7 +13,8 @@
 
 'use strict';
 
-var macaca-chromedriver = require('../');
+var Chromedriver = require('..');
 
-describe('test', function(){
+describe('test', function() {
+  
 });

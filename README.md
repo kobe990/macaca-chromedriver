@@ -1,5 +1,4 @@
-macaca-chromedriver
-===================
+## macaca-chromedriver
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -23,7 +22,7 @@ macaca-chromedriver
 ## Installment
 
 ```bash
-$ npm i macaca-chromedriver --save
+$ npm i macaca-chromedriver --save-dev
 ```
 
 ## Quick Start

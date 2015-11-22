@@ -14,4 +14,6 @@
 
 'use strict';
 
+var Chromedriver = require('..');
+
 

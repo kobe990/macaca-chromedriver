@@ -19,15 +19,38 @@
 
 > Node.js wrapper for the selenium chromedriver.
 
+https://sites.google.com/a/chromium.org/chromedriver/
+
 ## Installment
 
-```bash
+```shell
 $ npm i macaca-chromedriver --save-dev
+```
+
+## Custom binaries url
+
+To use a mirror of the ChromeDriver binaries use npm config property `chromedriver_cdnurl`.
+Default is `http://chromedriver.storage.googleapis.com`.
+
+```shell
+npm install chromedriver --chromedriver_cdnurl=http://npm.taobao.org/mirrors/chromedriver
+```
+
+Or add property into your [`.npmrc`](https://docs.npmjs.com/files/npmrc) file.
+
+```
+chromedriver_cdnurl=http://npm.taobao.org/mirrors/chromedriver
+```
+
+Another option is to use PATH variable `CHROMEDRIVER_CDNURL`.
+
+```shell
+CHROMEDRIVER_CDNURL=http://npm.taobao.org/mirrors/chromedriver npm install chromedriver
 ```
 
 ## Quick Start
 
-```bash
+```shell
 $ chromedriver
 ```
 

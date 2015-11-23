@@ -14,4 +14,25 @@
 
 'use strict';
 
+var Chromedriver = require('..');
+var program = require('commander');
 
+var pkg = require('../package.json');
+
+program
+  .option('-v, --versions', 'output version infomation')
+  .usage('[]');
+
+program
+  .command('install')
+  .description('install chromedriver')
+  .action(function(env, options){
+    Chromedriver.install();
+  });
+
+program.parse(process.argv);
+
+if (program.versions) {
+  console.info('\n  ' + pkg.version + '\n');
+  process.exit(0);
+}

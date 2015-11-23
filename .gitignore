@@ -12,3 +12,5 @@ Thumbs.db
 coverage/
 .project
 build/
+lib/chromedriver
+lib/chromedriver.exe

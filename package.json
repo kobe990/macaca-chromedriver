@@ -15,10 +15,13 @@
     "url": "git://github.com/xudafeng/macaca-chromedriver.git"
   },
   "dependencies": {
+    "bluebird": "~3.0.5",
     "commander": "~2.9.0",
     "jszip": "~2.5.0",
+    "lodash": "~3.10.1",
     "reliable-logger": "~1.0.7",
-    "request": "^2.67.0"
+    "request": "~2.67.0",
+    "request-promise": "~1.0.2"
   },
   "devDependencies": {
     "mocha": "*",
